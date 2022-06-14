@@ -1,0 +1,125 @@
+/* estilo geral */
+body {
+font-family: 'Macondo', cursive;
+}
+.row {
+margin:0;
+}
+.container {
+ padding: 70px 0;
+}
+p, li { 
+ color :rgb(18, 18, 18);
+font-size: 16px;
+
+}
+
+/*Barra de navegação*/
+
+header, .navbar{
+background-color:rgb(6, 66, 9);
+}
+#nav-container {
+padding-top: 0;
+padding-bottom: 0;
+}
+#logo {
+ width: 65px;
+}
+.navbar-brand{
+padding: 0;
+color: #FFF;
+}
+.navbar-brand:hover{
+    color: #fff;
+
+}
+#navbar-links a{
+    color: #FFF;
+}
+.navbar-expanded-lg .navbar-nav .nav-links{
+    padding: 1rem .8rem;
+}
+
+/*Slide*/
+.container-fluid{
+    padding:0;
+}
+#carouselIndicators .container-inner, #carouselIndicators .container-item{
+height: 90vh;
+}
+.carousel-indicators .active {
+    background-color:rgb(8, 85, 12);  
+}
+
+/*grid sobre o restaurante e hamburgueria*/
+#about-area{
+    background-image:linear-gradient(rgb(4, 87, 4),rgb(22, 22, 105))
+}
+.main-titulo{
+    color:rgb(245, 255, 246);
+    margin: 0 0 65px 0;
+    font-size:40px;
+    text-align:center;
+}
+.main-titulo::after{
+    content: " ";
+    border-top: 2px solid #333;
+    width:15%;
+    position:absolute;
+    top: 60px;
+    left:42.5%;
+}
+.main-titulo{
+    font-size:25px;
+    text-transform: uppercase;
+
+}
+#sobre-lista{
+    list-style: none;
+    padding-left: 0;
+}
+#sobre-lista li{
+    line-height: 30px;
+}
+#sobre-lista i{
+    color: green;
+    margin-right: 10px;
+}
+.img-fluid{
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+}
+
+/*Serviços */
+
+.service-box{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.sevice-box i {
+    font-size:40px;
+    margin-bottom:20px;
+}
+.service-box i, .sevice-box h4{
+    transition: .5s;
+}
+.service-box:hover > i, .sevice-box:hover > p{
+    color: blue;
+}
+/*Area dos especialistas*/
+.titulo{
+    text-align: center;
+    margin: 0 0 65px 0;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px black;
+}
+.card-title{
+    text-align: center;
+    margin-top: 25px;
+}
